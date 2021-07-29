@@ -1,7 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
+import { NextPage } from 'next'
 
-const Home: React.FC = () => {
+const IndexPage: NextPage = () => {
   return (
     <div>
       <Head>
@@ -17,4 +18,4 @@ const Home: React.FC = () => {
   )
 }
 
-export default Home
+export default IndexPage
