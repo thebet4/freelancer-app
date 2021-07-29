@@ -23,9 +23,11 @@
   "rules": {
     "prettier/prettier": [
       "error",
-      { "singleQuote": true, "semi": false, "parser": "flow" }
+      {
+        "singleQuote": true,
+        "parser": "typescript"
+      }
     ],
-
     "space-before-function-paren": "off",
     "no-use-before-define": "off",
     "react/prop-types": "off"
