@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongodb": "3.6.2",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/mongodb": "3.5.27",
     "@types/react": "17.0.15",
     "@typescript-eslint/eslint-plugin": "^4.4.0",
     "@typescript-eslint/parser": "^4.4.0",
